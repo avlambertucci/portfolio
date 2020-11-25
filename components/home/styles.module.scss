@@ -1,0 +1,41 @@
+.container{
+  // background-color:red;
+  background-image:url('/home-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  img{
+    width: 100%;
+  }
+  h3{
+    color: #fff;
+    font-size: 40px;
+    max-width: 800px;
+    font-weight: 200;
+
+  }
+
+  
+}
+.avatarContainer{
+  display: flex;
+  border: none;
+  align-items: center;
+  border-radius: 40px;
+  padding-left: 20px;
+  font-family: Fira Sans, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,  Oxygen,
+  Ubuntu, Cantarell,  Droid Sans, Helvetica Neue, sans-serif;
+
+  img{
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    margin-right: 100px;
+  }
+  h1{
+    color: #fff;
+    font-size: 80px;
+    max-width: 400px;
+  }
+}
